@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bower_components/animate.css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bower_components/gsap/src/uncompressed/TweenMax.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!-- should be replaced with minified version when development is finished -->
+    <script src="./bower_components/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script src="./bower_components/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+    <!--<script src="./bower_components/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>-->
+
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- should be removed when development is finished -->
+    <!--<script src="path/to/js/jquery.scrollmagic.debug.js"></script>-->
+</head>
+<body>
+    <!--<div id="my-sticky-element">-->
+        <!--rrr-->
+    <!--</div>-->
+
+    <style type="text/css">
+        .parallaxParent {
+            height: 100vh;
+            overflow: hidden;
+        }
+        .parallaxParent > * {
+            height: 200%;
+            position: relative;
+            top: -75%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 1200px;
+            margin: 0 auto;
+
+            /*height: 200%;*/
+            /*position: relative;*/
+            /*top: -100%;*/
+        }
+
+        #parallax1 .head{
+            position: absolute;
+            left: calc(50% - 210px / 2);
+            top: calc(25% - 63px / 2);
+        }
+
+    </style>
+
+
+
+    <div class="wrapper container-site">
+        <div>
+            <div style="position:fixed; top: calc(50% - (72px / 2)); right:-15px" class="rotate-90"><a href="javascript:;">LIVE CHAT</a></div>
+            <div style="position:fixed; top: calc(50% - (145px / 2)) ; left:-51px" class="rotate-reverse-90"><a href="javascript:;">CARDHOLDER LOGIN</a></div>
+        </div>
+        <div class="">
+            <div class="ibox float-e-margins" >
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav id="project01" class="project navbar navbar-default navbar-fixed-top bg-white border-white">
+                                <nav class="head">
+                                    <div class="headerLogo">
+                                        <img src="./img/sentient-jet-logot1.png" alt="">
+                                    </div>
+                                    <div class="row innner_head">
+                                        <div class="col-lg-6 col-xs-6  text-right">
+                                            <div style="display:inline-block" class="header-left-title">
+                                                <button type="button" class="btn btn-w-m btn-link text-uppercase">Why sentient</button><button class="btn btn-w-m btn-link text-uppercase">How it works</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-xs-6 text-left">
+                                            <div style="display:inline-block" class="header-right-title">
+                                                <button class="btn btn-w-m btn-link text-uppercase">Safety</button><button class="btn btn-w-m btn-link text-uppercase">Sentient life</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </nav>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12 ">
+                            <div id="project02" class="project" class="parallaxParent">
+                                <div class="spacer s0">
+                                </div>
+                                <div id="parallax1" class="parallaxParent">
+                                    <div style="background-image: url(./img/privatejet.jpg);">
+                                        <div class="head">
+                                        <h2><span class="title" style="color:white">SENTIENT JET</span></h2>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--<div class="spacer s1">-->
+                                    <!--<div class="box2 blue">-->
+                                        <!--<p>Content 1</p>-->
+                                        <!--<a href="#" class="viewsource">view source</a>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="spacer s0"></div>-->
+                                <!--<div id="parallax2" class="parallaxParent">-->
+                                    <!--<div style="background-image: url(./img/privatejet.jpg);"></div>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                       </div>
+                    <div class="row">
+                        <!--<div class="col-xs-6">-->
+                            <!--<div id="project03" class="project" style="overflow: hidden">-->
+                                <!--<div class="head">-->
+                                    <!--<h2><span class="title">A More Thoughtful Way To Fly</span></h2>-->
+                                <!--</div>-->
+                                <!--<div class="picture">-->
+                                    <!--&lt;!&ndash;<img src="img/bussineman.jpg" alt="">&ndash;&gt;-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                        <div class="col-xs-12">
+                            <div id="project03" class="project">
+                                <div class="head">
+                                    <h2><span class="title">A More Thoughtful Way To Fly</span></h2>
+                                </div>
+                                <div class="picture">
+                                    <!--<img src="img/bussineman.jpg" alt="">-->
+                                </div>
+                                <div class="head head-second" style="">
+                                    <div class="">
+                                        <h1><span class="title2 letter letter1">S</span>
+                                            <span class="title2 letter letter2">A</span>
+                                            <span class="title2 letter letter3">F</span>
+                                            <span class="title2 letter letter4">E</span>
+                                            <span class="title2 letter letter5">T</span>
+                                            <span class="title2 letter letter6">Y</span>
+                                        </h1>
+                                        <h1>
+                                            <span class="title2 letter letter7">F</span>
+                                            <span class="title2 letter letter8">I</span>
+                                            <span class="title2 letter letter9">R</span>
+                                            <span class="title2 letter letter10">S</span>
+                                            <span class="title2 letter letter11">T</span>
+                                        </h1>
+                                    </div>
+                                </div>
+
+                                <div class="context">
+                                    <div class="context1">Sentient is a leader in the industry with innovative safety policies</div>
+                                    <div class="context2">and practices that inspire confidence and peace of mind.</div>
+                                    <div class="context3">Sentient on safety</div>
+                                </div>
+                                <div class="content_link" style="margin-top:20px">
+                                    <a href="" style="text-decoration: underline">SENTIENT ON SAFETY</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div id="project04" class="project">
+                                <div class="context">
+                                    <h1 class="header_title" style="position:absolute;">Curb to tail</h1>
+                                    <div class="context_text context_text1" style="position:absolute; margin-top: 260px; opacity: 0">Sentient is a leader in the industry with innovative safety policies and </div>
+                                    <div class="context_text context_text2" style="position:absolute; margin-top: 280px; opacity: 0"> practices that inspire confidence and peace of mind</div>
+                                    <div class="context_text context_text3" style="position:absolute; margin-top: 300px; opacity: 0">Discover why sentient</div>
+                                </div>
+                                <div class="content_link" style="position:absolute; margin-top: 180px; opacity: 0">
+                                    <a href="" style="text-decoration: underline">DISCOVER WHY SENTIENT</a>
+                                </div>
+                                <div class="picture">
+                                    <!--<img src="img/58275296.jpg" alt="">-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            <nav class="footer navbar navbar-default navbar-fixed-bottom bg-white border-white font-size-9">
+                                    <div class="container-site">
+                                        <div class="col-lg-12">
+                                            <ul class="nav navbar-nav">
+                                                <li class=""><a href="javascript:;">1 866 602 0044</a></li>
+                                                <li><a href="javascript:;">MEET OUR TEAM</a></li>
+                                                <li><a href="javascript:;">CAREERS</a></li>
+                                                <li><a href="javascript:;">OPERATOR LOGIN</a></li>
+                                                <li><a href="javascript:;">DOWNLOAD APPS</a></li>
+                                                <li><a href="javascript:;">DOWNLOAD COLLATERAL</a></li>
+                                                <li><a href="javascript:;">FOLLOW US</a></li>
+                                                <li><a href="javascript:;">CARSITE CREDITEERS</a></li>
+                                                <li><a href="javascript:;">LEGAL</a></li>
+                                            </ul>
+                                            <ul class="nav navbar-nav">
+
+                                                <li>
+
+                                                </li>
+                                            </ul>
+                                            <button class="btn btn-success pull-right get-in-touch" style="margin-right:25px">GET IN TOUCH</button>
+                                        </div>
+
+                                    </div>
+
+
+
+                            </nav>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--<div id="main" class="main-container">-->
+
+
+
+
+<!--</div>-->
+
+</body>
+</html>

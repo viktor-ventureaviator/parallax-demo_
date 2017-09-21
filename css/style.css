@@ -1,0 +1,307 @@
+.btn-link:hover, .btn-link:focus{
+    text-decoration: none;
+}
+.btn-link.btn.btn-w-m {
+    outline: none;
+}
+
+.btn-link.btn.btn-w-m {
+    color: #23527c;
+}
+
+
+
+.bg-white{
+    background:#ffffff;
+}
+
+.border-white{
+    border-color:#ffffff;
+}
+body{
+    /*overflow: hidden;*/
+}
+
+.container-site{
+    width: 1270px;
+    margin:0 auto;
+    /*height: 100vh;*/
+    /*overflow-x: hidden;*/
+    /*overflow-y: auto;*/
+    /*padding: 2rem;*/
+    /*color: #fff;*/
+    /*text-align: left;*/
+}
+
+
+.rotate-90 {
+
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+
+    /* IE */
+    -ms-transform: rotate(90deg);
+
+    /* Opera */
+    -o-transform: rotate(90deg);
+}
+
+.rotate-reverse-90 {
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+
+
+
+
+
+.wrapper{
+    padding:0 40px 40px 40px;
+}
+
+#project01{
+    position: fixed;
+    z-index: 999;
+    background: white;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+}
+
+
+
+.header-right-title{
+    position:absolute;
+    opacity:1;
+    visibility: visible;
+    white-space: nowrap;
+    line-height:52px;
+
+}
+
+.header-left-title{
+    position:absolute;
+    opacity:1;
+    visibility: visible;
+    white-space: nowrap;
+    line-height:52px;
+
+}
+
+.headerLogo{
+    position:absolute;
+    left: calc(50% - (568px / 2));
+    top:-42px;
+    visibility:hidden;
+}
+
+
+#project02 .plane {
+    position:absolute;
+    left: calc(50% - (183px / 2));
+    top:50%
+}
+
+
+
+
+
+/*#project01 .row.innner_head{*/
+    /*background-image: url(../img/sentient-jet-logot1.png);*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*height: 35px;*/
+    /*!*opacity: 0;*!*/
+    /*visibility: hidden;*/
+/*}*/
+
+#project01 .picture{
+    text-align: center;
+
+}
+
+#project01 img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#project02{
+    height: 100vh;
+}
+
+#project02 .picture{
+    /*text-align: center;*/
+    /*padding-top: 65px;*/
+    background-image: url("../img/privatejet.jpg");
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-position-y: 50%;
+}
+
+
+/*.parallaxParent {*/
+    /*height: 100vh;*/
+    /*!*overflow: hidden;*!*/
+/*}*/
+
+/*.parallaxParent .picture {*/
+    /*height: 200%;*/
+    /*position: relative;*/
+    /*top: -100%;*/
+/*}*/
+
+#project02 img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    /*max-height: 100vh;*/
+}
+
+#project01{
+    /*visibility: hidden;*/
+    /*display:none;*/
+}
+
+
+
+
+#project03 .picture{
+    text-align: center;
+    background-image: url("../img/bussineman.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: inline-block;
+
+
+
+}
+
+#project03 img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#project03 .head-second{
+    display: inline-block;
+    position: absolute;
+    left: 660px;
+}
+#project03 .context{
+    /*padding-left: 20px;*/
+    display: inline-block;
+    position: absolute;
+    top: 215px;
+}
+#project03 .content_link{
+    position: absolute;
+    display: inline-block;
+    top: 280px;
+    padding-left: 30px;
+}
+
+#project03 .letter{
+    position: relative;
+}
+
+
+#project03 .title{
+    /*transition: transform 0.3s ease-out;*/
+    position: relative;
+    /*opacity: 0;*/
+}
+
+span.title2.letter.animated.fadeInUp {
+    /*visibility: hidden;*/
+    display:inline-block;
+}
+
+
+/*@media screen and (min-width: 1200px){*/
+    .head-second{
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+/*}*/
+
+
+.zap {
+    /*transform: scale(2.5, 0);*/
+}
+
+#project04 .head {
+    position:relative;
+    z-index: 999;
+}
+
+#project04 .picture{
+    text-align: center;
+    background-image: url(../img/58275296.jpg);
+   height: 500px;
+    margin-left: 400px;
+    margin-top: -150px;
+    z-index: 999;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/*#project04 img{*/
+    /*display: block;*/
+    /*!*max-width: calc(100% - 400px);*!*/
+    /*max-width: 100%;*/
+    /*height: auto;*/
+    /*margin-top: -250px;*/
+    /*!*margin-left: 400px;*!*/
+    /*padding-left: 400px;*/
+/*}*/
+
+.footer-site{
+    text-align: center;
+}
+
+.footer-site .nav.navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.footer-site .container-fluid{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.get-in-touch{
+    padding:12px 12px;
+}
+
+.font-size-10{
+    font-size: 10px;
+}
+
+.font-size-9{
+    font-size: 9px;
+}
