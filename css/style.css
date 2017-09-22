@@ -74,11 +74,11 @@ body{
 
 
 .wrapper{
-    padding:0 40px 40px 40px;
+    padding:0 40px 0px 40px;
 }
 
 #project01{
-    position: fixed;
+    /*position: fixed;*/
     z-index: 999;
     background: white;
     width: 100%;
@@ -304,4 +304,16 @@ span.title2.letter.animated.fadeInUp {
 
 .font-size-9{
     font-size: 9px;
+}
+
+ul.nav.navbar-nav  li {
+    float: left;
+}
+
+.footer-site. ul.nav.navbar-nav{
+    display:inline-block;
+}
+
+.footer. nav.navbar-nav{
+    display:inline-block;
 }

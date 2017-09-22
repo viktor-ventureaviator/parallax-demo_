@@ -17,8 +17,28 @@ $(document).ready(function () {
         .addTo(controller2);
 
 
-    var tweenCenterTitle=TweenMax.fromTo("#parallax1 .head", 1,
-        {top: '25%'},
+
+
+
+    // var tweenCenterTitleBlock = new TimelineMax();
+    // tweenCenterTitleBlock
+        // .fromTo("#project02 .head", 0,
+        //     {position: "fixed" },
+        //     {position: "relative", repeat: 0, yoyo: true, ease: Circ.easeInOut}, 0)
+    //     .fromTo("#project02 .head", 1,
+    //     {top: '25%'},
+    //     {top: 0, repeat: 0, yoyo: true, ease: Circ.linear})
+    //
+    //
+    //
+    // new ScrollMagic.Scene({
+    //     triggerElement: "#project01", offset: 400, duration:500
+    // })
+    //     .setTween(tweenCenterTitleBlock)
+    //     .addTo(controller);
+
+
+    var tweenCenterTitle=TweenMax.to("#project01 .head h2", 1,
         {top: 0, repeat: 0, yoyo: true, ease: Circ.linear})
 
     // new ScrollMagic.Scene({triggerElement: "#parallax2"})
@@ -52,25 +72,25 @@ $(document).ready(function () {
     //     .addTo(controller);
 
 
-    new ScrollMagic.Scene({triggerElement: "#project02", offset: 500, duration:600})
+    new ScrollMagic.Scene({triggerElement: "#parallax1", offset: 500, duration:400})
         .setTween(tweenCenterTitle)
         .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
 
-    new ScrollMagic.Scene({triggerElement: "#project02",offset: 500, duration:600})
+    new ScrollMagic.Scene({triggerElement: "#parallax1", offset: 500, duration:400})
         .setTween(tweenHeaderLogo)
         .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
 
 
-    new ScrollMagic.Scene({triggerElement: "#project02",offset: 500, duration:600})
+    new ScrollMagic.Scene({triggerElement: "#parallax1", offset: 500, duration:400})
         .setTween(tweenHeaderRight)
         .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
-    new ScrollMagic.Scene({triggerElement: "#project02",offset: 500, duration:600})
+    new ScrollMagic.Scene({triggerElement: "#parallax1", offset: 500, duration:400})
         .setTween(tweenHeaderLeft)
         .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
