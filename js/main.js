@@ -39,7 +39,7 @@ $(document).ready(function () {
 
 
     var tweenCenterTitle=TweenMax.to("#project01 .head h2", 1,
-        {top: 0, repeat: 0, yoyo: true, ease: Circ.linear})
+        {top: "-50px", opacity:0, repeat: 0, yoyo: true, ease: Circ.linear})
 
     // new ScrollMagic.Scene({triggerElement: "#parallax2"})
     //     .setTween("#parallax2 > div", 1, {y: "80%", ease: Linear.easeNone})
